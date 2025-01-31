@@ -1,0 +1,71 @@
+.card-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  font-family: 'Monoton', cursive;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+}
+.home-btn:hover {
+  background-color: #ffffff;
+}
+
+.home-btn svg {
+  margin-right: 8px;
+  padding-left: 1rem;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+.heading h2{
+  text-align: center;
+  color: rgb(11, 9, 10);
+  font-family: 'Monoton', cursive;
+  padding-top: 1.5rem;
+}
+.form-group label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  margin-left: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-btn {
+  width: 100%;
+  background-color: #4b2a9e;
+  color: rgb(251, 255, 131);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-btn:hover {
+  background-color: #feffff;
+  color: #4b2a9e;
+  border: #4b2a9e;
+}
+
+/* Image Preview */
+.image-preview {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.image-preview img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+}

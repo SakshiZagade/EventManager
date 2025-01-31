@@ -1,0 +1,104 @@
+/* Home Button */
+.home-btn {
+    display: flex;
+    align-items: center;
+    /* background-color: #4c00ff; */
+    color: #1b0f44;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: 'Monoton', cursive;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background 0.3s ease-in-out;
+  }
+
+
+  
+   .home-btn:hover {
+    background-color: #0056b3;
+  } 
+  
+  .home-btn svg {
+    margin-right: 8px;
+   
+  }
+  
+  /* Event Container */
+  .event-container {
+    max-width: 90%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  /* Event Title */
+  .event-title {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Monoton', cursive;
+    color: #333;
+    margin-bottom: 25px;
+  }
+  
+  /* Event Grid Layout */
+  .event-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  /* Event Card */
+  .event-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    width: 350px;  
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .event-card:hover {
+    transform: scale(1.08);
+  }
+  
+  /* Event Image */
+  .event-image {
+    width: 100%; /* Ensure the image takes up full width of the card */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Crop image to cover the area */
+  }
+  
+  /* Event Information */
+  .event-info {
+    padding: 18px;
+    text-align: left;
+  }
+  
+  .event-name {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Monoton', cursive;
+    margin-bottom: 8px;
+  }
+  
+  .event-location, 
+  .event-date, 
+  .event-description {
+    font-size: 16px;
+    font-family: 'Monoton', cursive;
+    margin: 6px 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .event-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+    .event-card {
+      width: 90%;
+    }
+  }
+  
