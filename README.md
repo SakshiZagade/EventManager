@@ -14,17 +14,17 @@ The **Event Manager WebApp** is a full-featured event management platform built 
 
 ✅ **Responsive Design:** Optimized for mobile, tablet, and desktop views.
 
-✅ **User Authentication:** Secure login and signup system *(if implemented).*
+✅ **User Authentication:** Secure login and signup system 
 
-✅ **Admin Panel:** Manage event creation and updates *(if applicable).*
+
 
 ## Tech Stack
 
 🚀 **Frontend:** ReactJS, HTML, CSS, JavaScript
 
-⚡ **State Management:** React Hooks (*useState, useEffect, etc.*)
+⚡ **State Management:** React Hooks (useState, useEffect, etc.)
 
-🛠 **Backend (Optional):** Node.js, Express.js, MongoDB *(if API required)*
+🛠 **Backend (Optional):** Node.js, Express.js, MongoDB
 
 🎨 **Styling:** Tailwind CSS / Bootstrap
 
