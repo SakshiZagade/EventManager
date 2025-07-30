@@ -25,7 +25,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage });
 
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
 
 
 // Connect to the database
@@ -51,6 +51,4 @@ if (!fs.existsSync(uploadDir)) {
 }
 
 // Start the server
-app.listen(PORT, () => {
-  console.log(`Server is running at ${PORT}`);
-});
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
