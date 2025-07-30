@@ -51,6 +51,6 @@ if (!fs.existsSync(uploadDir)) {
 }
 
 // Start the server
-app.listen(port, () => {
-  console.log(`Server is running at ${port}`);
+app.listen(PORT, () => {
+  console.log(`Server is running at ${PORT}`);
 });
