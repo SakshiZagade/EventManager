@@ -24,7 +24,9 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage: storage });
 
-const port = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
 
 // Connect to the database
 connect();
