@@ -15,10 +15,10 @@ const Home = () => {
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [searchTerm, setSearchTerm] = useState(""); // Search state
   const [events, setEvents] = useState([]); // Fetch events from backend
-
+  const API_URL = import.meta.env.VITE_API_URL;
   const getData = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/events");
+      const res = await axios.get(`${API_URL}/api/events`);
       console.log(res.data); // Debug API response
       setEvents(res.data); // Update state with API data
     } catch (error) {
