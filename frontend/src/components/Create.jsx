@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./create.css";
+import "./Create.css";
 import { useNavigate } from "react-router-dom";
 import { FaHome } from "react-icons/fa"; // Import Home Icon
 import axios from "axios"; // Import Axios
